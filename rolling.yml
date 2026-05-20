@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: nginx #apply rollback deployment after changing the version  
+          image: nginx:12.5 #apply rollback deployment after changing the version  
           ports:
             - name: http
               containerPort: 8181
